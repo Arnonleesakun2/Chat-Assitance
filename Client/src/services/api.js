@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://chat-assitance.vercel.app/api';
+const API_BASE_URL = 'https://chat-assitance-server.vercel.app/api';
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
